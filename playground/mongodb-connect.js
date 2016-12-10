@@ -21,6 +21,4 @@ db.collection('Todos').insertOne({
 
   db.close();
 });
-
-
 });
