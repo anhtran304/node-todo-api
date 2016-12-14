@@ -69,3 +69,18 @@ describe('GET /todos', () => {
       .end(done)
   });
 });
+
+describe('GET /todos/:id', () => {
+  it('should return todo doc when id is valid', (done) =>{
+
+  });
+
+  it('should return 404 if todo is not found', (done) => {
+
+  });
+
+  it('should return 404 for non-object ids', (done) => {
+    
+  });
+
+});
