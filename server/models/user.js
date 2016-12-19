@@ -10,6 +10,7 @@ var userSchema = new Schema({
   require: true,
   minlength: 1,
   trim: true,
+  unique: true,
   validate: {
     validator: validator.isEmail,
     message: '${email} is not a valid email!'
