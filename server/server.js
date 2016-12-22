@@ -95,8 +95,6 @@ app.patch('/todos/:id', (req, res) => {
 
 });
 
-//POST /users
-
 app.post('/users', (req,res) => {
   var user = new User(_.pick(req.body, ['email', 'password']));
   user.save().then(() => {
